@@ -81,7 +81,7 @@ function validate()
            isNaN( document.StudentRegistration.mobileno.value) ||
            document.StudentRegistration.mobileno.value.length != 10 )
    {
-     alert( "Please provide a Mobile No in the format 123." );
+     alert( "Please provide Mobile Number in 10 Digits Format." );
      document.StudentRegistration.mobileno.focus() ;
      return false;
    }
